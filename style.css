@@ -1,0 +1,12 @@
+.container-fluid{
+    height : 650px;
+    background-color: aqua;
+}
+.col-md-3{
+    height :650px;
+    background-color: black;
+}
+.col-md-7{
+    height:650px;
+    background-color:orchid;
+}

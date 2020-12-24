@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hide And Show</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                </br>
+                <button id="u">Getting Started</button>
+                </br>
+                    <button id="b">HTML</button>
+                </br>
+                <button id="ba">CSS</button>
+            </br>
+            <button id="bas">Javascript</button>
+        </br>
+        <button id="basa">SQL</button>
+                </div>
+                <div class="col-md-7">
+                <p id="g">Welcome to Technical Area.<br>Hope you will enjoy it!</p>
+                <p id="r"><b>HTML</b><br>HTML is the standard markup language for Web pages.<br>
+
+                    With HTML you can create your own Website.<br>
+                    
+                    HTML is easy to learn - You will enjoy it!</p>
+                <p id="ra"><b>CSS</b><br>CSS is a language that describes the style of an HTML document.<br>
+
+                    CSS describes how HTML elements should be displayed.<br>
+                    
+                    This tutorial will teach you CSS from basic to advanced</p>
+                    <p id="rah"><b>JavaScript</b><br>JavaScript is the programming language of HTML and the Web.<br>
+
+                        JavaScript is easy to learn.<br>
+                        
+                        This tutorial will teach you JavaScript from basic to advanced.</p>
+                        <p id="rahu"><b>SQL</b><br>SQL is a standard language for storing, manipulating and retrieving data in databases.<br>
+
+                            Our SQL tutorial will teach you how to use SQL in: MySQL, SQL Server, MS Access, Oracle, Sybase, Informix, Postgres, and other database systems.</p>    
+                </div>
+                <div class="col-md-2">
+                    
+                </div>
+        </div>
+        <script type="text/Javascript">
+
+           $(document).ready(function(){
+            $('#r').hide();
+            $('#ra').hide();
+            $('#rah').hide();
+            $('#rahu').hide();
+        });
+
+        $(document).ready(function(){
+            $('#r').hide();
+            $('#ra').hide();
+            $('#rah').hide();
+            $('#rahu').hide();
+            $('#b').click(function(){
+                $('#r').show(2000);
+                $('#g').hide();
+            });
+        });
+
+        $(document).ready(function(){
+            $('#r').hide();
+            $('#ra').hide();
+            $('#rah').hide();
+            $('#rahu').hide();
+            $('#ba').click(function(){
+                $('#ra').show(2000);
+                $('#r').hide();
+            });
+        });
+
+        $(document).ready(function(){
+            $('#r').hide();
+            $('#ra').hide();
+            $('#rah').hide();
+            $('#rahu').hide();
+            $('#bas').click(function(){
+                $('#rah').show(2000);
+                $('#r').hide();
+                $('#ra').hide();
+            });
+        });
+
+        $(document).ready(function(){
+            $('#r').hide();
+            $('#ra').hide();
+            $('#rah').hide();
+            $('#rahu').hide();
+            $('#basa').click(function(){
+                $('#rahu').show(2000);
+                $('#r').hide();
+                $('#ra').hide();
+                $('#rah').hide();
+            });
+        });
+
+
+            </script>
+    </body>
+</html>
